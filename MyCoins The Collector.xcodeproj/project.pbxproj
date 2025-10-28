@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		86BF62132EB0C2A900A78CB3 /* CoinCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BF62132EB0C2A900A78CB3 /* MyCoins The Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyCoins The Collector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		86BF62142EB0C2A900A78CB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86BF62132EB0C2A900A78CB3 /* CoinCollection.app */,
+				86BF62132EB0C2A900A78CB3 /* MyCoins The Collector.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		86BF62122EB0C2A900A78CB3 /* CoinCollection */ = {
+		86BF62122EB0C2A900A78CB3 /* MyCoins The Collector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86BF62212EB0C2AA00A78CB3 /* Build configuration list for PBXNativeTarget "CoinCollection" */;
+			buildConfigurationList = 86BF62212EB0C2AA00A78CB3 /* Build configuration list for PBXNativeTarget "MyCoins The Collector" */;
 			buildPhases = (
 				86BF620F2EB0C2A900A78CB3 /* Sources */,
 				86BF62102EB0C2A900A78CB3 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				86BF62152EB0C2A900A78CB3 /* CoinCollection */,
 			);
-			name = CoinCollection;
+			name = "MyCoins The Collector";
 			packageProductDependencies = (
 			);
 			productName = CoinCollection;
-			productReference = 86BF62132EB0C2A900A78CB3 /* CoinCollection.app */;
+			productReference = 86BF62132EB0C2A900A78CB3 /* MyCoins The Collector.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 86BF620E2EB0C2A900A78CB3 /* Build configuration list for PBXProject "CoinCollection" */;
+			buildConfigurationList = 86BF620E2EB0C2A900A78CB3 /* Build configuration list for PBXProject "MyCoins The Collector" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86BF62122EB0C2A900A78CB3 /* CoinCollection */,
+				86BF62122EB0C2A900A78CB3 /* MyCoins The Collector */,
 			);
 		};
 /* End PBXProject section */
@@ -254,11 +254,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CoinCollection/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MyCoins: The Collector";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -266,6 +269,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoinCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -282,11 +289,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CoinCollection/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MyCoins: The Collector";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,6 +304,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.CoinCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86BF620E2EB0C2A900A78CB3 /* Build configuration list for PBXProject "CoinCollection" */ = {
+		86BF620E2EB0C2A900A78CB3 /* Build configuration list for PBXProject "MyCoins The Collector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86BF621F2EB0C2AA00A78CB3 /* Debug */,
@@ -312,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86BF62212EB0C2AA00A78CB3 /* Build configuration list for PBXNativeTarget "CoinCollection" */ = {
+		86BF62212EB0C2AA00A78CB3 /* Build configuration list for PBXNativeTarget "MyCoins The Collector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86BF62222EB0C2AA00A78CB3 /* Debug */,
